@@ -67,5 +67,13 @@ const newArray = adminPaths2.reduce((acc, item) => {
   return acc;
 }, []);
 
-// console.log(newArray); 
+// console.log(newArray);
 console.log(JSON.stringify(newArray));
+
+//serial and non-serializable objects
+//Non serialazable objects e data missing hoite pare tai react serializable chai
+const obj = {
+  name: "Mezba",
+  role: "mentor",
+  age: 18,
+};
